@@ -9,6 +9,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 import { TbBrandLeetcode } from "react-icons/tb";
+import { SiCodeforces } from "react-icons/si";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -93,13 +95,12 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/abhishek-biyani-39ba251b9/'  // Update link here
+              href='https://www.linkedin.com/in/abhishek-biyani-39ba251b9/'
               target='_blank' // Opens link in a new tab
               rel='noopener noreferrer' // Recommended security measure
             >
@@ -109,7 +110,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#db8b00]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://leetcode.com/u/abhishek_biyani08/'  // Update link here
+              href='https://leetcode.com/u/abhishek_biyani08/'
               target='_blank' // Opens link in a new tab
               rel='noopener noreferrer' // Recommended security measure
             >
@@ -119,7 +120,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#005b47]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:abhishekbiyani08@gmail.com'  // Update email here
+              href='mailto:abhishekbiyani08@gmail.com'
               target='_blank' // Opens link in a new tab
               rel='noopener noreferrer' // Recommended security measure
             >
@@ -129,11 +130,21 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1Dh9XHrMMRA3weUkpcrqp0axSUVcIXYIB/view'  // Update link here
+              href='https://drive.google.com/file/d/1Dh9XHrMMRA3weUkpcrqp0axSUVcIXYIB/view'
               target='_blank' // Opens link in a new tab
               rel='noopener noreferrer' // Recommended security measure
             >
               Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9f1818]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://codeforces.com/profile/abhishekbiyani08'
+              target='_blank' // Opens link in a new tab
+              rel='noopener noreferrer' // Recommended security measure
+            >
+              Codeforces <SiCodeforces size={30} />
             </a>
           </li>
         </ul>

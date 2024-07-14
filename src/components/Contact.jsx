@@ -40,7 +40,7 @@ const Contact = () => {
               onChange={handleMessageChange} onFocus={() => setMessageFocused(true)} onBlur={() => setMessageFocused(false)}
             >
             </textarea>
-            <button className='text-white border-2 rounded-lg hover:border-yellow-400 px-4 py-3 my-8 mx-auto flex items-center'>
+            <button className='text-white border-2 rounded-lg hover:bg-yellow-400 hover:text-black transition duration-300 ease-in-out px-4 py-3 my-8 mx-auto flex items-center'>
               <FaHandshake className='mr-2' /> Let's Collaborate
             </button>
         </form>

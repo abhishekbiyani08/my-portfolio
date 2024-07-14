@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div></div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 flex items-center'>
+          <div className='max-w-[1000px] w-full sm:grid-cols-2 gap-8 px-4 flex items-center'>
             <div className='sm:text-right text-4xl font-bold'>
               <p>Greetings! I'm <span className='text-[#dbab00]'>Abhishek Biyani</span>, where Coding meets Creativity, check out my projects!</p>
             </div>
