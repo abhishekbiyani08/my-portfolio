@@ -11,7 +11,7 @@ const Home = () => {
       setTypedName((prevName) => prevName + name[i]);
       i++;
       if (i === name.length) clearInterval(interval);
-    }, 150);
+    }, 90);
     return () => clearInterval(interval);
   }, []);
 
