@@ -17,7 +17,7 @@ const About = () => {
               <p>Greetings! I'm <span className='text-[#dbab00]'>Abhishek Biyani</span>, where Coding meets Creativity, check out my projects!</p>
             </div>
             <div className='md:text-left sm:text-center lg:text-left xl:text-left xs:text-center'>
-              <p>From video editing to graphic design, and now diving into the world of Web Development – I do it all! Armed with a passion for tech and a knack for Data Structures, I'm on a mission to become a top-notch software engineer. Whether it's crafting stunning visuals or writing clean code, I'm here to make an impact.</p>  
+              <p>From video editing to graphic design, and now diving into the world of Web Development – I do it all! Whether it's crafting stunning visuals or writing clean code, I'm here to make an impact.</p>  
             </div>
           </div>
       </div>
