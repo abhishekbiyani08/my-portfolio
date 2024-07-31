@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.df8913f8.css",
-    "main.js": "/my-portfolio/static/js/main.6ba6a350.js",
+    "main.css": "/my-portfolio/static/css/main.66cbd216.css",
+    "main.js": "/my-portfolio/static/js/main.3fd4974d.js",
     "static/media/php.png": "/my-portfolio/static/media/php.502c1a901665a0453b5c.png",
     "static/media/Salesforce.png": "/my-portfolio/static/media/Salesforce.98d88e1838fcf61f49e7.png",
     "static/media/logo.png": "/my-portfolio/static/media/logo.74fa6295a1ce52f72f84.png",
@@ -19,11 +19,11 @@
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/bootstrap.webp": "/my-portfolio/static/media/bootstrap.9665c440214bdf00146d.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.df8913f8.css.map": "/my-portfolio/static/css/main.df8913f8.css.map",
-    "main.6ba6a350.js.map": "/my-portfolio/static/js/main.6ba6a350.js.map"
+    "main.66cbd216.css.map": "/my-portfolio/static/css/main.66cbd216.css.map",
+    "main.3fd4974d.js.map": "/my-portfolio/static/js/main.3fd4974d.js.map"
   },
   "entrypoints": [
-    "static/css/main.df8913f8.css",
-    "static/js/main.6ba6a350.js"
+    "static/css/main.66cbd216.css",
+    "static/js/main.3fd4974d.js"
   ]
 }
