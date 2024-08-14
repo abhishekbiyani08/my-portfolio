@@ -28,7 +28,7 @@ const Home = () => {
         </h2>
         <p className='text-[#8892b0] py-3 max-w-[800px]'>
           I'm a Computer Science Engineering student passionate about coding, specializing in Web Development
-          and Data Structures. With over 900 LeetCode challenges solved, I thrive on problem-solving.
+          and Data Structures. With over 950 LeetCode challenges solved, I thrive on problem-solving.
           Beyond tech, I'm an avid traveler. Let's connect and explore new horizons together!
         </p>
         <div>

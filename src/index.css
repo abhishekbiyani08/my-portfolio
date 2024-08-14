@@ -29,13 +29,28 @@
   ) !important;
 }
 
-.hover-effect {
-  transition: background-color 500ms, font-weight 500ms;
+.underline-effect {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: #7d7d7d;
+  text-decoration: none;
 }
 
-.hover-effect:hover {
+.underline-effect::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  width: 0;
   background-color: rgb(203, 159, 0);
-  color: #0a1926;
-  border-radius: 5px;
-  font-weight: bolder;
+  transition: width 0.3s ease;
+}
+
+.underline-effect:hover::after {
+  width: 100%;
+}
+.underline-effect:hover {
+    color: white;
 }
