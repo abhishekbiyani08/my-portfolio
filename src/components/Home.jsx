@@ -33,7 +33,7 @@ const Home = () => {
         </p>
         <div>
       <a href='tel:+919699114832'>
-        <button className='text-white group border-2 rounded-lg px-6 py-3 my-2 flex items-center transition duration-300 ease-in-out hover:bg-yellow-400 hover:text-black'>
+        <button className='py-3 my-2 mx-0 flex items-center button'>
           Call Me
           <HiPhone className='ml-3' />
         </button>
