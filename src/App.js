@@ -6,11 +6,10 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Footer from './components/Footer';
-import './fade-in-animation.css';
 
 function App() {
   return (
-    <div className="fade-in">
+    <div>
       <Navbar />
       <Home />
       <About />

@@ -32,13 +32,13 @@ const Home = () => {
           Beyond tech, I'm an avid traveler. Let's connect and explore new horizons together!
         </p>
         <div>
-      <a href='tel:+919699114832'>
-        <button className='py-3 my-2 mx-0 flex items-center button'>
-          Call Me
-          <HiPhone className='ml-3' />
-        </button>
-      </a>
-    </div>
+          <a href='tel:+919699114832'>
+            <button className='py-3 my-2 mx-0 flex items-center button z-10 relative'>
+              Call Me
+              <HiPhone className='ml-3' />
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
