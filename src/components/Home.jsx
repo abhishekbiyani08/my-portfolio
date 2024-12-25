@@ -23,8 +23,8 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ffffff]'>
           {typedName}
         </h1>
-        <h2 className='text-4xl sm:text-5xl font-bold text-[#8892b0] py-3'>
-          I'm an upcoming Software Engineer.
+        <h2 className='text-3xl sm:text-5xl font-bold text-[#8892b0] py-3'>
+          Software Developer Intern at Klingelnberg India.
         </h2>
         <p className='text-[#8892b0] py-3 max-w-[800px]'>
           I'm a Computer Science Engineering student passionate about coding, specializing in Web Development

@@ -4,7 +4,6 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
 import bootstrap from '../assets/bootstrap.webp';
 import sql from '../assets/sql.png';
@@ -12,6 +11,7 @@ import cpp from '../assets/cpp.png';
 import php from '../assets/php.png'
 import salesforce from '../assets/Salesforce.png'
 import tailwind from '../assets/tailwind.png'
+import csharp from '../assets/csharp.png'
 
 const Skills = () => {
   return (
@@ -29,8 +29,8 @@ const Skills = () => {
                   <p className='my-4'>C++</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-90 duration-500'>
-                  <img className='w-16 mx-auto mt-4' src={AWS} alt="AWS icon" />
-                  <p className='my-4'>AWS</p>
+                  <img className='w-16 mx-auto mt-4' src={csharp} alt="C# icon" />
+                  <p className='my-4'>C#</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-90 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="Javascript icon" />
